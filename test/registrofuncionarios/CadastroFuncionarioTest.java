@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author 2311134
  */
-public class CadastroClienteTest {
+public class CadastroFuncionarioTest {
     
-    public CadastroClienteTest() {
+    public CadastroFuncionarioTest() {
     }
     
     @BeforeClass
@@ -38,40 +38,40 @@ public class CadastroClienteTest {
     }
 
     /**
-     * Test of getNome method, of class CadastroCliente.
+     * Test of getNome method, of class CadastroFuncionario.
      */
     @Test
     public void testGetNome() {
         System.out.println("getNome");
-        CadastroCliente instance = new CadastroCliente();
+        CadastroFuncionario instance = new CadastroFuncionario();
         String expResult = null;
         String result = instance.getNome();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        
+       
     }
 
     /**
-     * Test of setNome method, of class CadastroCliente.
+     * Test of setNome method, of class CadastroFuncionario.
      */
     @Test
     public void testSetNome() {
         System.out.println("setNome");
         String Nome = "";
-        CadastroCliente instance = new CadastroCliente();
+        CadastroFuncionario instance = new CadastroFuncionario();
         instance.setNome(Nome);
         // TODO review the generated test code and remove the default call to fail.
        
     }
 
     /**
-     * Test of getCPF method, of class CadastroCliente.
+     * Test of getCPF method, of class CadastroFuncionario.
      */
     @Test
     public void testGetCPF() {
         System.out.println("getCPF");
-        CadastroCliente instance = new CadastroCliente("123");
-        String expResult = "123";
+        CadastroFuncionario instance = new CadastroFuncionario();
+        String expResult = null;
         String result = instance.getCPF();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -79,40 +79,40 @@ public class CadastroClienteTest {
     }
 
     /**
-     * Test of setCPF method, of class CadastroCliente.
+     * Test of setCPF method, of class CadastroFuncionario.
      */
     @Test
     public void testSetCPF() {
         System.out.println("setCPF");
         String CPF = "";
-        CadastroCliente instance = new CadastroCliente();
+        CadastroFuncionario instance = new CadastroFuncionario();
         instance.setCPF(CPF);
         // TODO review the generated test code and remove the default call to fail.
        
     }
 
     /**
-     * Test of getEndereco method, of class CadastroCliente.
+     * Test of getEndereco method, of class CadastroFuncionario.
      */
     @Test
     public void testGetEndereco() {
         System.out.println("getEndereco");
-        CadastroCliente instance = new CadastroCliente();
+        CadastroFuncionario instance = new CadastroFuncionario();
         String expResult = null;
         String result = instance.getEndereco();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        
+      
     }
 
     /**
-     * Test of setEndereco method, of class CadastroCliente.
+     * Test of setEndereco method, of class CadastroFuncionario.
      */
     @Test
     public void testSetEndereco() {
         System.out.println("setEndereco");
         String Endereco = "";
-        CadastroCliente instance = new CadastroCliente();
+        CadastroFuncionario instance = new CadastroFuncionario();
         instance.setEndereco(Endereco);
         // TODO review the generated test code and remove the default call to fail.
        
