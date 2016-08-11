@@ -9,6 +9,8 @@ package registrofuncionarios;
  *
  * @author 2311134
  */
+
+
 public class RegistroVendas {
     String NomeMercadoriaVendida; //NomeMercadoria: Variável que guardará o nome da mercadoria solicitado 
     String CodMercadoriaVendida;  //CodMercadoria: Variável que guardará o Código da mercadoria solicitado 
