@@ -14,6 +14,13 @@ public class CadastroCliente {
     String CPF; // CPF: Variável que guardará o CPF do cliente solicitadp no cadastro
     String Endereco;  // Endereço: Variável que guardará o endereço do cliente solicitadp no cadastro
 
+    public CadastroCliente(String Cpf){
+        this.CPF = Cpf;
+    }
+    
+    public CadastroCliente(){
+    }
+    
     // getNome: Método que receberá o nome do cliente solicitada no cadastro
     public String getNome() {
         return Nome;
